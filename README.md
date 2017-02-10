@@ -27,5 +27,5 @@ Execute ```react-native run-ios``` or open ```ios/ReactNativeCodeReuse.xcodeproj
 Screenshots
 ===========
 
-![Screenshot 1](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/screenshots/react-native-code-reuse-1.png)
-![Screenshot 2](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/screenshots/react-native-code-reuse-2.png)
+![Screenshot 1](https://github.com/ihor/ReactNativeCodeReuseExample/blob/master/screenshots/react-native-code-reuse-2.png?raw=true)
+![Screenshot 2](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/screenshots/react-native-code-reuse-2.png?raw=true)
