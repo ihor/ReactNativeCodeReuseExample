@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #009688;
+}
+
+.container {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.help-button {
+    border: 0;
+    background: #80CBC4;
+    width: 180px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+}
