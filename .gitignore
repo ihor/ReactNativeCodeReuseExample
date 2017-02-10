@@ -49,6 +49,9 @@ xcuserdata
 DerivedData
 *.xcuserstate
 
+*.hmap
+*.ipa
+project.xcworkspace
 
 # Intellij
 .idea
