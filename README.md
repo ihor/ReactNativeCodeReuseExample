@@ -4,11 +4,11 @@ This example shows how to reuse code between different platforms when using Reac
 
 Each platform uses the corresponding ```index.js``` file as an entry point. All other code resides in the [app](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app) directory.
  
-Each component is presented as a subpackage containing implementation for each platform. For simple components which don't do any logic we define only two views for web and mobile and load the relevant view in the subpackage index. Like in the [App](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/App) component.
+Each component is presented as a subpackage containing implementations for all platforms. For simple components which don't do any logic, we define only two views for web and mobile and load the relevant view in the subpackage index. Like in the [App](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/App) component.
  
- For components which have different appearance for iOS and Android we define two views with ```ios.js``` and ```android.js``` each containing a platform specific code. Like in the [Title](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/Title) component.
+ For components which have a different appearance for iOS and Android, we define two views with ```ios.js``` and ```android.js``` extensions each containing a platform specific code. Like in the [Title](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/Title) component.
  
- And for components which which do some logic we also add a component container to define that logic. In such case component container renders the view and in the subpackage index we load the platform relevant container. For max code reuse we can put all shared logic into abstract container and implement platform specific logic in subclasses. Like in the [HelpButton](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/HelpButton) component.
+ And for components which do some logic, we also add a component container to define that logic. In such case in the subpackage index, we load the container and it renders the view. For max code reuse, we can put all shared logic into the abstract container and put platform specific code into subclasses. Like in the [HelpButton](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/HelpButton) component.
 
 Installation
 ============
