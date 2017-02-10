@@ -2,6 +2,14 @@ React Native Code Reuse
 =======================
 This example shows how to reuse code between different platforms when using React & React Native. It is based on the fact that React Native will detect when a file has a .ios. or .android. extension and load the relevant platform file when required from other components (see [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions)).
 
+Each platform uses the corresponding ```index.js``` file as an entry point. All other code resides in the [app](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app) directory.
+ 
+Each component is presented as a subpackage containing implementation for each platform. For simple components which don't do any logic we define only two views for web and mobile and load the relevant view in the subpackage index. Like in the [App](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/App) component.
+ 
+ For components which have different appearance for iOS and Android we define two views with ```ios.js``` and ```android.js``` each containing a platform specific code. Like in the [Title](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/Title) component.
+ 
+ And for components which which do some logic we also add a component container to define that logic. In such case component container renders the view and in the subpackage index we load the platform relevant container. For max code reuse we can put all shared logic into abstract container and implement platform specific logic in subclasses. Like in the [HelpButton](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app/components/HelpButton) component.
+
 Installation
 ============
 1. Install [npm](https://www.npmjs.com/)
