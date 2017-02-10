@@ -23,3 +23,9 @@ From the root directory of the repository execute ```gulp serve```
 
 ### iOS
 Execute ```react-native run-ios``` or open ```ios/ReactNativeCodeReuse.xcodeproj``` with XCode and run the project.
+
+Screenshots
+===========
+
+![Screenshot 1](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/screenshots/react-native-code-reuse-1.png)
+![Screenshot 2](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/screenshots/react-native-code-reuse-2.png)
