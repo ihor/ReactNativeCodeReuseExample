@@ -1,5 +1,4 @@
 import React from 'react';
-import { Alert } from 'react-native';
 import Button from 'react-native-button';
 
 import styles from '../../native/styles';

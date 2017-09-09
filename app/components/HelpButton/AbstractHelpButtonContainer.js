@@ -3,9 +3,11 @@ import HelpButtonView from './HelpButtonView';
 
 export default class AbstractHelpButtonContainer extends React.Component {
     constructor(props) {
-        if (new.target === AbstractHelpButtonContainer) {
-            throw new TypeError('Cannot construct AbstractHelpButtonContainer instances directly');
-        }
+        // new.target is not working on Android
+        // if (new.target === AbstractHelpButtonContainer) {
+        //     throw new TypeError('Cannot construct AbstractHelpButtonContainer instances directly');
+        // }
+
         super(props);
 
         this.onClick = this.onClick.bind(this);
@@ -16,8 +18,6 @@ export default class AbstractHelpButtonContainer extends React.Component {
     }
     
     render() {
-        return (
-            <HelpButtonView onClick={this.onClick} />
-        );
+        return <HelpButtonView onClick={this.onClick}/>;
     }
 }

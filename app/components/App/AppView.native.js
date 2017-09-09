@@ -8,6 +8,6 @@ import HelpButton from '../HelpButton';
 
 export default () =>
     <View style={styles.container}>
-        <Title />
-        <HelpButton />
+        <Title/>
+        <HelpButton/>
     </View>;

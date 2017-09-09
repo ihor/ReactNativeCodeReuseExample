@@ -5,6 +5,6 @@ import HelpButton from '../HelpButton';
 
 export default () =>
     <div className="container">
-        <Title />
-        <HelpButton />
+        <Title/>
+        <HelpButton/>
     </div>;
