@@ -22,7 +22,10 @@ Run
 From the root directory of the repository execute ```gulp serve```
 
 ### iOS
-Execute ```react-native run-ios``` or open ```ios/ReactNativeCodeReuse.xcodeproj``` with XCode and run the project.
+From the root directory  execute ```react-native run-ios``` or open ```ios/ReactNativeCodeReuse.xcodeproj``` with XCode and run the project.
+
+### Android
+From the root directory  execute ```react-native run-android```
 
 Screenshots
 ===========
