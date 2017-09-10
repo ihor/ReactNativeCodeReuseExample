@@ -8,5 +8,5 @@ export default props =>
         onPress={props.onClick} 
         style={styles.buttonText}
         containerStyle={styles.button}>
-        Help
+        About
     </Button>;

@@ -1,3 +1,6 @@
+# Project
+web/js/bundle.*
+
 # Node
 logs
 *.log

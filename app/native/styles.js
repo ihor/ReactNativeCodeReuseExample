@@ -14,14 +14,18 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: 20
     },
-    helpButton: {
+    buttonContainer: {
+        flexDirection: 'row',
+    },
+    button: {
         backgroundColor: '#80CBC4', 
         width: 100,
-        padding: 10
+        padding: 10,
+        margin: 5,
     },
-    helpButtonText: {
+    buttonText: {
         color: '#FFFFFF'
-    }
+    },
 });
 
 export default styles;

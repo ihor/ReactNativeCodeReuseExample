@@ -18,11 +18,12 @@ body {
     margin-bottom: 32px;
 }
 
-.help-button {
+.button {
     border: 0;
     background: #80CBC4;
     width: 180px;
     height: 40px;
+    margin: 5px;
     color: #FFFFFF;
     font-size: 18px;
     text-transform: uppercase;
