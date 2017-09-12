@@ -1,6 +1,6 @@
 React Native Code Reuse
 =======================
-This example shows how to share code between different platforms (web, iOS and Android) when using React & React Native. It is based on the fact that React Native will detect when a file has a .ios. or .android. extension and load the relevant platform file when required from other components (see [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions)). I created this application as an example for my article [Code sharing between React and React Native applications](http://ihor.burlachenko.com/code-sharing-between-react-and-react-native-applications/).
+I created this application as an example for my article [Code sharing between React and React Native applications](http://ihor.burlachenko.com/code-sharing-between-react-and-react-native-applications/). It shows how to share code between different platforms (web, iOS and Android) when using React & React Native. It is based on the fact that React Native will detect when a file has a .ios. or .android. extension and load the relevant platform file when required from other components (see [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions)).
 
 Each platform uses the corresponding ```index.js``` file as an entry point. All other code resides in the [app](https://github.com/ihor/ReactNativeCodeReuseExample/tree/master/app) directory.
  
