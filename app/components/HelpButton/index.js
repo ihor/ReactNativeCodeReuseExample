@@ -10,7 +10,7 @@ class HelpButton extends React.Component {
     render() {
         return (
             <HelpButtonContainer { ...this.props }/>
-        )
+        );
     }
 }
 
